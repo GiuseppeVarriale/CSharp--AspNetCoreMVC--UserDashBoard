@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
-using UserDashBoard.Data;
+using UserDashBoard.Models;
 
 namespace UserDashBoard.Areas.Identity.Pages.Account
 {

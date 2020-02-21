@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-using UserDashBoard.Data;
+using UserDashBoard.Models;
 
 namespace UserDashBoard.Areas.Identity.Pages.Account
 {

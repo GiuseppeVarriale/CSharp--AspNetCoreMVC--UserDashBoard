@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
-using UserDashBoard.Data;
+using UserDashBoard.Models;
 
 namespace UserDashBoard.Areas.Identity.Pages.Account.Manage
 {

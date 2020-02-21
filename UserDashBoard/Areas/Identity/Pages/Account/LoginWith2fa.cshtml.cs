@@ -8,14 +8,14 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-using UserDashBoard.Data;
+using UserDashBoard.Models;
 
 namespace UserDashBoard.Areas.Identity.Pages.Account
 {
     [AllowAnonymous]
     public class LoginWith2faModel : PageModel
     {
-        private readonly SignInManager<Data.UserDashBoardUser> _signInManager;
+        private readonly SignInManager<UserDashBoardUser> _signInManager;
         private readonly ILogger<LoginWith2faModel> _logger;
 
         public LoginWith2faModel(SignInManager<UserDashBoardUser> signInManager, ILogger<LoginWith2faModel> logger)

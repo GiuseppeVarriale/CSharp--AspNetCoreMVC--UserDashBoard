@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 
-namespace UserDashBoard.Data
+namespace UserDashBoard.Models
 {
     // Add profile data for application users by adding properties to the UserDashBoardUser class
     public class UserDashBoardUser : IdentityUser

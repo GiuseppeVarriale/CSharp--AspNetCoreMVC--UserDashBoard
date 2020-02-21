@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using UserDashBoard.Data;
+using UserDashBoard.Models;
 
 namespace UserDashBoard.Areas.Identity.Pages.Account.Manage
 {
